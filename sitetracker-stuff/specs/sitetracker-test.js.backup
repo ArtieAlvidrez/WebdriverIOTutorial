@@ -1,0 +1,18 @@
+
+import SPage from '../pageobjects/salesforce.page'
+import assert from 'assert'
+
+describe("SiteTracker QA Case Study", () =>{
+
+  it("1.  Login to developer.salesforce.com", async () =>{
+        await browser.url('http://google.com');
+        const title = await browser.getTitle();
+        assert.equal(title, 'Google');
+    //const title = await browser.getTitle();
+    //expect(title).toContain('Formy');
+	
+	//SalesforcePage.FullName.setValue ('artie');
+    //SalesforcePage.Button.click();
+	//browser.pause(2000);
+  });
+});
